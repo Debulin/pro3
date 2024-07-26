@@ -3,6 +3,8 @@ fn main() {
     // 一个对只读内存中分配的字符串的引用
     let pangram: &'static str = "the quick brown fox jumps over the lazy dog";
     println!("Pangram: {}", pangram);
+    let test: &'static str = "test";
+    println!("test: {}", test);
 
     // 逆序迭代单词，这里并没有分配新的字符串
     println!("Words in reverse");
